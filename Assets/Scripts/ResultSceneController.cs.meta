@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: eb654fb9bd8447c4cad0b4ac6793afa8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - resultText: {instanceID: 0}
+  - imageDisplay: {instanceID: 0}
+  - firstSprite: {instanceID: 0}
+  - secondSprite: {instanceID: 0}
+  - scream: {fileID: 8300000, guid: 00787127bf8dd1b4a8113fe3f879987e, type: 3}
+  - cut: {fileID: 8300000, guid: 7aaca7268f50f8a42acfb0a2393e719b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
