@@ -189,7 +189,7 @@ public class GameMaster : MonoBehaviour
         // グー or チョキでプレイヤー勝利 → 相手の指チョンパ
         if (result == 1)
         {
-            opponent.CutFinger(-1);
+            opponent.CutFinger(opponent.GetExtendedFingerNum());
 
             // どっちもパーが出せなくなったら勝負続行不可
             int playerFinger = player.GetAliveFingerNum();
@@ -242,7 +242,7 @@ public class GameMaster : MonoBehaviour
         // グー or チョキで相手勝利 → プレイヤーの指チョンパ
         else if (result == -1)
         {
-            player.CutFinger(-1);
+            player.CutFinger(player.GetExtendedFingerNum());
 
             // どっちもパーが出せなくなったら勝負続行不可
             int playerFinger = player.GetAliveFingerNum();
